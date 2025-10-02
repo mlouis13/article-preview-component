@@ -1,0 +1,38 @@
+body {
+	display: flex;
+	flex-direction: row;
+	justify-content: center;
+	align-items: center;
+	height: 100vh;
+	background-color: #ecf2f8;
+}
+.carte {
+	width: 60%;
+	height: max-content;
+	background-color: white;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+
+.gros {
+	width: 30%;
+	height: 50%;
+}
+.meuf {
+	width: 40px;
+	height: 40px;
+}
+.ecriture {
+	display: flex;
+	flex-direction: column;
+}
+.info {
+	width: max-content;
+	display: flex;
+	flex-direction: row;
+}
+a {
+	padding: 12px;
+	background-color: #ecf2f8;
+}
